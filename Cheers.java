@@ -13,7 +13,7 @@ public class Cheers {
                 for (int i = 0; i < capInput.length(); i++){
                         for (int inTmp = 1; inTmp < capLetters.length(); inTmp++){
                                 if (capInput.charAt(i) == capLetters.charAt(inTmp)) 
-                                {System.out.println("Give me an " + capLetters.charAt(inTmp) + ":");
+                                {System.out.println("Give me an " + capLetters.charAt(inTmp) + ": " + capLetters.charAt(inTmp) + "!");
                                 break;}
                                 else if (inTmp == capLetters.length()-1) System.out.println("Give me a  " + capInput.charAt(i) + ":");
                                 }
