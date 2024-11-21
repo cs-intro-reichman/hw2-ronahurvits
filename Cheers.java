@@ -1,7 +1,7 @@
 // Prints a crowd cheering output.
 public class Cheers {
         public static void main(String[] args) {
-                String capLetters = "AEFHILMNORSX";
+                String capLetters = "AAEFHILMNORSX";
                 int linesNum = Integer.parseInt(args[1]);
                 String capInput = "";
                 for (int i = 0; i < args[0].length(); i++) {
