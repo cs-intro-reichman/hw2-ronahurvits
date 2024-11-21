@@ -52,3 +52,7 @@ local.properties
 /.idea/
 /*.iml
 /*.log
+
+# my addition
+*.history/
+*.DS_Store
