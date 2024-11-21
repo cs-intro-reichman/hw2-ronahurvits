@@ -9,16 +9,16 @@ public class Cheers {
                         if (c >= 'a' && c <= 'z'){
                                 c-=32;
                         }
-                        capInput += c;
-                        System.out.println(c + " -> "+ capInput);}
+                        capInput += c;}
                 for (int i = 0; i < capInput.length(); i++){
                         for (int inTmp = 1; inTmp < capLetters.length(); inTmp++){
                                 if (capInput.charAt(i) == capLetters.charAt(inTmp)) 
-                                {System.out.println("Give me an " + capLetters.charAt(inTmp));
+                                {System.out.println("Give me an " + capLetters.charAt(inTmp) + ":");
                                 break;}
-                                else if (inTmp == capLetters.length()-1) System.out.println("Give me a " + capInput.charAt(i));
+                                else if (inTmp == capLetters.length()-1) System.out.println("Give me a " + capInput.charAt(i) + ":");
                                 }
                         }
+                System.out.println("What does it spell?");
                 for (int i = 0; i < linesNum; i++){
                         System.out.println(capInput+"!!!");
                 }
