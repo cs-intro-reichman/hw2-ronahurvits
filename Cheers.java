@@ -15,7 +15,7 @@ public class Cheers {
                                 if (capInput.charAt(i) == capLetters.charAt(inTmp)) 
                                 {System.out.println("Give me an " + capLetters.charAt(inTmp) + ":");
                                 break;}
-                                else if (inTmp == capLetters.length()-1) System.out.println("Give me a " + capInput.charAt(i) + ":");
+                                else if (inTmp == capLetters.length()-1) System.out.println("Give me a  " + capInput.charAt(i) + ":");
                                 }
                         }
                 System.out.println("What does it spell?");
