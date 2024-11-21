@@ -7,11 +7,11 @@ public class CalcPi {
 		double initDenominator = (double) 1;
 		double calcPi = 0;
 		for (int i = 0; i < iterations; i++) {
-			System.out.println("iteration: "+(i)+" mod: "+(i%2));
-			System.out.println("initDenominator: "+initDenominator);
+			// System.out.println("iteration: "+(i)+" mod: "+(i%2));
+			// System.out.println("initDenominator: "+initDenominator);
 			if (i%2 == 0) calcPi += (one/initDenominator);
 			else calcPi -= (one/initDenominator);
-			System.out.println("one/initDenominator test: "+one/3);
+			// System.out.println("one/initDenominator test: "+one/3);
 			initDenominator +=2;
 			System.out.println("calc: "+calcPi);
 
