@@ -10,8 +10,6 @@ public class Collatz {
 			myNum = i;
 				do {
 					finOutCount += 1;
-					// System.out.println("test count " +finOutCount);
-					// System.out.println("test" +myNum+ "round "+ i);
 					if (myNum%2==0) myNum = myNum/2; else myNum= (myNum*3) +1;
 					finOut = finOut + " " + myNum;}
 				while (myNum > 1);
